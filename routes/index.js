@@ -1,8 +1,8 @@
 const router = require('express').Router();
 const controllers = require('../controllers');
 
-// Matches with "/api/books"
-console.log(controllers.Event);
+
+
 router
   .route('/')
   .get(controllers.Event.findAll)
